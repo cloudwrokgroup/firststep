@@ -1,13 +1,14 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-?><!DOCTYPE html>
+?>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
 	<title>Welcome to CodeIgniter</title>
 
 	<!--<link href="<?php echo asset_url()?>css/style.css" />-->
-	<?php echo link_tag('firststep/assets/css/style.css')?>
+	<?php echo link_tag('firstste/assets/css/style.css')?>
 </head>
 <body>
 
