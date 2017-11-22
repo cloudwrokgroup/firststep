@@ -22,9 +22,9 @@ class Welcome extends CI_Controller {
 	   /* $this->load->helper('url');	*/
 		//$this->load->view('welcome_message');
 		
-		$session_data = array('username' => "kalaiselvan.a",'email' => "kalai6095@gmail.com");
+		//$session_data = array('username' => "kalaiselvan.a",'email' => "kalai6095@gmail.com");
         // Add user data in session
-        $this->session->set_userdata('logged_in', $session_data);
+       // $this->session->set_userdata('logged_in', $session_data);
 		$this->load->view('index');
 		
 	}
