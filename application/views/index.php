@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 if (!isset($this->session->userdata['logged_in']['username'])) {
-	header("Location: ".base_url() ."firststep/login"); 
+	header("Location: ".portal_url() ."login"); 
     exit();
 }else{
 	

@@ -12034,7 +12034,8 @@ textarea.parsley-success:focus {
   height: 100%;
   box-shadow: inset -1px 0 1px 0 #ced4da;
   background-color: #e9ecef;
-  padding-top: 170px;
+  /*padding-top: 170px;*/
+  padding-top:73px;
   transition: all 0.2s ease-in-out;
 }
 @media (min-width: 992px) {
