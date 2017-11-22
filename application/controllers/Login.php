@@ -48,7 +48,7 @@ class Login extends CI_Controller {
                                         'id' => $result[0]->id,
                                         'username' => $result[0]->user_name,
                                         'email' => $result[0]->user_email,
-                                    );
+                        );
 
                         $this->session->set_userdata('logged_in', $session_data);
                         $this->load->view('index');
