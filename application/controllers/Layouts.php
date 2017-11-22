@@ -20,7 +20,13 @@ class Layouts extends CI_Controller {
 	 */
 	public function index(){
 	  //  echo "this is testing";
-		$this->load->view('layout');
+		$this->load->view('ui/dashboard');
+	}
+	public function layout_param($num){
+		echo $num . "this is the number which is get from this site url";
+	}
+	public function layout_params($num,$var){
+		echo $num . "this is the number which is get from this site url". $var . "base url is =". base_url();
 	}
 	
 	

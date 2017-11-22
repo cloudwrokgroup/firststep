@@ -8,13 +8,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<title>Welcome to CodeIgniter</title>
 
 	<!--<link href="<?php echo asset_url()?>css/style.css" />-->
-	<?php echo link_tag('firstste/assets/css/style.css')?>
+	<?php echo link_tag('firststep/assets/css/style.css')?>
 </head>
 <body>
 
 <div id="container">
 	<h1>Welcome to CodeIgniter!</h1>
-
+      <?php include('index_dupe.php'); ?>
 	<div id="body">
 	
 		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
